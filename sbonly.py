@@ -1,4 +1,4 @@
-Y## all of this data is copied from creator production PrankBots
+## all of this data is copied from creator production PrankBots
 # don't forget to always support the prabkbots channel
 # SUBSCRABE HERE https://bit.ly/2xbVxlh
 # MY ID LINE :: http://line.me/ti/p/~Adiputra.95
@@ -7,7 +7,6 @@ Y## all of this data is copied from creator production PrankBots
 # Area :: BOGOR.
 #___SCRIPT PYTHON 3____
 #Bonly
- GET INSTALED IN MODULE FROM VPS IT IS IN REPOSIYORIES
 #*Acil Creator
 
 
