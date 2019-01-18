@@ -663,7 +663,7 @@ def bot(op):
                             sep = text.split(" ")
                             key = text.replace(sep[0] + " ","")
                             smule = "https://www.smule.com/"+ key
-                            me.sendMessage(R, "here is link of smule i\n" + smule)
+                            me.sendMessage(R, "here is link of smule id\n" + smule)
                         if PrankBotsData == Abouts["29"]:
                           if D in Owner or D in meM:
                             if msg.toType == 2:
@@ -914,8 +914,8 @@ def bot(op):
                           if D in Owner or D in meM:
                             if R in Sid['Red']:
                                 Sid['Tar'][R]=False
-                                me.sendMessage(R, "°°°·.°·..·°¯°·._.· ɢᴜʀᴜ's ʙᴏᴛs ·._.·°¯°·.·° .·°°°\n¸   „.-•~¹°”ˆ˜¨ List Of Readers ¨˜ˆ”°¹~•-.„¸\n"+Sid['Reason'][msg.to])
-                                me.sendMessage(R, "Already off")
+                                me.sendMessage(R, "°°°·.°·..·°¯°·._.·T͙e͙a͙m͙ G͙u͙r͙u͙(Bots)·._.·°¯°·.·° .·°°°\n¸   „.-•~¹°”ˆ˜¨ List Of Readers ¨˜ˆ”°¹~•-.„¸\n"+Sid['Reason'][msg.to])
+                                me.sendMessage(R, "Turned off")
                             else:
                                 me.sendMessage(R, "Activate First")
                         if PrankBotsData == Abouts["63"]:
@@ -1051,7 +1051,7 @@ def bot(op):
             print ("NOTIFIED ADD CONTACT SELF")
             if PrankBots["Add"] == True:
                 me.findAndAddContactsByMid(op.param1)
-            sendMention(op.param1, op.param1, "Thanks For add Me ","")
+            sendMention(op.param1, op.param1, "Thanks For adding  Me ","")
         if op.type == 15:
             Gr = op.param1
             Cj = op.param2
@@ -1112,7 +1112,7 @@ def bot(op):
                                         me.sendMessage(Gr, "ι ѕee yoυ😜 👀: " + " " + Name)
                                         me.sendImageWithURL(Gr, "/" + Np)
                                 else:
-                                    me.sendMessage(Gr, "ι ѕee yoυ😈 👀" + " " + Name + " " + "\nJ")
+                                    me.sendMessage(Gr, "ι ѕee yoυ😈 👀" + " " + Name + " " + "\n")
                                     me.sendImageWithURL(Gr, "" + Np)
                         else:
                             pass
