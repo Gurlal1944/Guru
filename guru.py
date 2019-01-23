@@ -926,13 +926,13 @@ def bot(op):
                           try:                          	
                               for mentionMembers in range(Dmem+1):
                                   no = 0
-                                  ret_ = "\n╔════════════"
+                                  ret_ = "\n╔═══ɢᴜʀᴜ's ʙᴏᴛs═══"
                                   dataMid = []
                                   for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
                                       dataMid.append(dataMention.mid)
                                       no += 1
                                       ret_ += "\n╠. @!".format(str(no))
-                                  ret_ += "\n╚══════════════".format(str(len(dataMid)))
+                                  ret_ += "\n╚══ʟɪɴᴇ ɪᴅ - ɪᴀᴍɢᴜʀᴜ𝟷𝟸══".format(str(len(dataMid)))
                                   sendMeention(R, ret_, dataMid)
                           except Exception as Ewe:
                               print(Ewe)
