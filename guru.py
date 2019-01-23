@@ -932,7 +932,7 @@ def bot(op):
                                       dataMid.append(dataMention.mid)
                                       no += 1
                                       ret_ += "\n╠. @!".format(str(no))
-                                  ret_ += "\n╚══ʟɪɴᴇ ɪᴅ - ɪᴀᴍɢᴜʀᴜ𝟷𝟸══".format(str(len(dataMid)))
+                                  ret_ += "\n╚══ʟɪɴᴇ ɪᴅ - ɪᴀᴍɢᴜʀᴜ12══".format(str(len(dataMid)))
                                   sendMeention(R, ret_, dataMid)
                           except Exception as Ewe:
                               print(Ewe)
