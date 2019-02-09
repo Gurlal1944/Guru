@@ -35,7 +35,7 @@ settingsOpen = codecs.open("PrankBots.json","r","utf-8")
 PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
-me=LINE("EB4ifI6Mq1tNlANzudN2.TvdRmJaim08TzpRrtq9y8G.no+EMS0id55TkyW3ajewO2vqzs3RwReHEhpbWZLIKMw=")
+me=LINE("EBgtx4agUorrF5T6FLG0.g6IiV/Vsr7bvz2SGG5YFua.V/0pUlfTkgJIgTAT0wPgg8xJvZdqpzfeYHNFeUWgUDk=")
 me.log(str(me.authToken))
 channelToken = me.getChannelResult()
 me.log("\n\nBOT READY ACTIVE\nCREATOR :- •●◉✿ Ⓖⓤⓡⓤ ✿◉●•")
@@ -914,7 +914,7 @@ def bot(op):
                           if D in Owner or D in meM:
                             if R in Sid['Red']:
                                 Sid['Tar'][R]=False
-                                me.sendMessage(R, "█T҉E҉A҉M҉ G҉U҉R҉U҉(B҉O҉T҉S҉)█ \n¸*•.¸♡ ʟɪsᴛ ᴏғ ʀᴇᴀᴅᴇʀs ♡¸.•*\n"+Sid['Reason'][msg.to])
+                                me.sendMessage(R, "█T҉E҉A҉M҉ G҉U҉R҉U҉(B҉O҉T҉S҉)█ \n ♡ʟɪsᴛ ᴏғ ʀᴇᴀᴅᴇʀs ♡\n"+Sid['Reason'][msg.to])
                                 me.sendMessage(R, "Turned off")
                             else:
                                 me.sendMessage(R, "Activate First")
