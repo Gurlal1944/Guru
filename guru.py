@@ -914,7 +914,7 @@ def bot(op):
                           if D in Owner or D in meM:
                             if R in Sid['Red']:
                                 Sid['Tar'][R]=False
-                                me.sendMessage(R, "█T҉E҉A҉M҉ G҉U҉R҉U҉(B҉O҉T҉S҉)█ \n¸*•.¸♡ ʟɪsᴛ ᴏғ ʀᴇᴀᴅᴇʀs ♡¸.•*\n"+Sid['Reason'][msg.to])
+                                me.sendMessage(R, "█T҉E҉A҉M҉ G҉U҉R҉U҉(B҉O҉T҉S҉)█ \n ♡ʟɪsᴛ ᴏғ ʀᴇᴀᴅᴇʀs♡ \n"+Sid['Reason'][msg.to])
                                 me.sendMessage(R, "Turned off")
                             else:
                                 me.sendMessage(R, "Activate First")
