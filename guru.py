@@ -1051,7 +1051,7 @@ def bot(op):
             print ("NOTIFIED ADD CONTACT SELF")
             if PrankBots["Add"] == True:
                 me.findAndAddContactsByMid(op.param1)
-            sendMention(op.param1, op.param1, "Thanks For adding  Me ","")
+            sendMention(op.param1, op.param1, "Thanks For adding  Me i fo vcs for money so if you can't pay please do not message me if you call me without asking i will block you  ","")
         if op.type == 15:
             Gr = op.param1
             Cj = op.param2
