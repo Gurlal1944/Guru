@@ -35,10 +35,10 @@ settingsOpen = codecs.open("PrankBots.json","r","utf-8")
 PrankBots = json.load(settingsOpen)
 settingsOpen = codecs.open("Abouts.json","r","utf-8")
 Abouts = json.load(settingsOpen)
-me=LINE("EBg2D0kqK073S22kI6q9.YYf8cStIwOFgA5IAN4i/cq.MbVqZnOT4xYL3V4LRV9FYIcOzDQ6C/ssBPfjcrfyCs0=")
+me=LINE("")
 me.log(str(me.authToken))
 channelToken = me.getChannelResult()
-me.log("\n\nBOT READY ACTIVE\nCREATOR :- •●◉✿ Ⓖⓤⓡⓤ ✿◉●•")
+me.log("\n\nBOT READY ACTIVE\nGURU MAKES YOU SUPER")
 meM = me.profile.mid
 meProfile = me.getProfile()
 meSettings = me.getSettings()
@@ -355,17 +355,7 @@ def bot(op):
                             Res+= Stiles+"______SelfName______\n"+Stiles+meProfile.displayName+"\n"
                             me.sendMessage(apikey_com,Devert)
                             me.sendMessage(R, str(Res)+Stiles+"ADD ME"+Stiles+" https://bit.ly/2xbVxlh")
-                        if PrankBotsData == Abouts["2"]:
-                          if D in Owner or D in meM:
-                            try:
-                                me.findAndAddContactsByMid("uea61b3c8b9c5bb49bd052f6511e60eb5")
-                                me.findAndAddContactsByMid("ub0842532a31b9d99856cf2590b17d33f")
-                                me.findAndAddContactsByMid("udfaf52176415b46cb445ae2757ec85f3")
-                                me.findAndAddContactsByMid("u17a086ccff618e754588a1108335867f")
-                                me.findAndAddContactsByMid("uc8dc5352066b6a344bde3c07b0fe04ea")
-                                Musik(R)
-                                RunTheRun(apikey_com, D, "_______RESULT______\n")
-                            except:Musik(R)
+                        
                         if PrankBotsData == Abouts["3"]:
                           if D in Owner or D in meM:
                             me.reissueUserTicket()
